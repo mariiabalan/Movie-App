@@ -1,0 +1,38 @@
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.item:hover {
+  background-color: #f1f1f1;
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

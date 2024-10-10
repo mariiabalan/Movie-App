@@ -1,0 +1,63 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.detailsContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.imgPoster {
+  width: 300px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.movieInfo {
+  flex: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #4fa94d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.additionalInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.linkNav {
+  text-decoration: none;
+  color: #4fa94d;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.linkNav:hover {
+  color: #3e8e41;
+}

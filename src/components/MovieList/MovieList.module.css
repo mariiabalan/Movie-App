@@ -1,0 +1,27 @@
+.movieList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movieItem {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.movieItem:hover {
+  background-color: #f0f0f0;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.movieTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
